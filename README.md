@@ -60,31 +60,30 @@ A geographic mapping utility developed in Python. Queries coordinates using IP/G
   <img src="public/projects/location_tracker.png" alt="Location Tracker Mockup" width="600" style="border-radius: 8px; border: 1px solid var(--border-color);" />
 </div>
 
----
+## ⚙️ Installation & Local Setup
 
-## 🚀 Setup & Local Execution
+Want to run this portfolio locally? Follow these steps:
 
-Get a copy of the project running locally by following these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Joseph-Francis42/portfolio.git
+   ```
 
-### Prerequisites
-*   Node.js (v18 or higher recommended)
-*   npm (installed with Node)
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio
+   ```
 
-### Installation
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/Joseph-Francis42/portfolio.git
-    ```
-2.  Navigate to the project folder:
-    ```bash
-    cd portfolio
-    ```
-3.  Install dependencies:
-    ```bash
-    npm install
-    ```
-4.  Start the development server:
-    ```bash
-    npm run dev
-    ```
-5.  Open [http://localhost:5173](http://localhost:5173) in your browser.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the local development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to:
+   [http://localhost:5173](http://localhost:5173)
+
