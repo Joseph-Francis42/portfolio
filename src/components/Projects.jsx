@@ -16,7 +16,7 @@ export default function Projects() {
             <div key={project.id} className="project-card" id={`project-card-${project.id}`}>
               <div className="project-img-wrapper">
                 <img
-                  src={project.imagePath}
+                  src={`${import.meta.env.BASE_URL}${project.imagePath.replace(/^\//, '')}`}
                   alt={`${project.title} Mockup Preview`}
                   className="project-img"
                   loading="lazy"
